@@ -6,16 +6,16 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'LuciferMoringstar_Robot')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['23684657'])
+API_HASH = environ['471fbeeb71b5fbf9246fc7342bb6754a']
+BOT_TOKEN = environ['6167822408:AAFt19XhHzBTlYIaA91b-d_1RmFew0Z08Jk']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
 BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", ""))
-ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "").split())
+ADMIN_ID = set(int(x) for x in os.environ.get("1410065122", "").split())
 DB_URL = os.environ.get("DATABASE_1", "")
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST", True))
 
@@ -29,8 +29,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 TUTORIAL = "https://youtu.be/5hnYOKBzyi8"
 # MongoDB information
-DATABASE_URI = environ['DATABASE_2']
-DATABASE_NAME = environ['BOT_NAME']
+DATABASE_URI = environ['-1001665531646']
+DATABASE_NAME = environ['Movie_Name_By_Abhishek_ALAS']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
